@@ -2,19 +2,23 @@
 
 1. [Watched Week 0 live stream](https://www.youtube.com/watch?v=TXjzwiHtGqc)
 
+
 2. **Terraform CLI install fix** 
 
 Fixed an issue with the Terraform CLI not fully installing automatically 
 by refactoring the Terraform CLI install into an external bash script.
+
 
 3. **Project root env vars**
 
 Set enviornment variables for the project root alongside creating the ```.env.example``` file to document 
 environmental variables.
 
+
 4. **AWS CLI install**
 
 Fixed an issue with the AWS CLI installation in gitpod by creating an AWS CLI bash script. I also set AWS related enviornment variables.
+
 
 5. **Terraform - Random Provider Init, Plan, Apply**
 
@@ -35,6 +39,7 @@ provider "random" {
 }
 ```
 Also ran the commands ```terraform init```, ```terraform plan``` and ```terraform apply --auto--approve``` respectivley to generate a random bucket name.
+
 
 6. **Creating a simple S3 bucket**
 
@@ -72,6 +77,7 @@ resource "aws_s3_bucket" "example" {
 }
 ```
 
+
 7. **Configuring Terraform Cloud backend**
 
 Configured the Terraform Cloud backend by creating a CLI workspace in Terraform Cloud, then added the following code
@@ -93,7 +99,7 @@ terraform {
 Also ran Terraform login and created a token after going to the URL next to "Document" 
 as shown in the screenshot below:
 
-
+![terraformlogingitpod](https://github.com/Gamerrethink/terraform-beginner-bootcamp-2023/assets/20970865/b8eb77d8-cbce-4df0-9f9a-f8871fbd9cd1)
 
 Also created and opened /home/gitpod/.terraform.d/credentials.tfrc.json via these commands: 
 touch /home/gitpod/.terraform.d/credentials.tfrc.json and open /home/gitpod/.terraform.d/credentials.tfrc.json,
@@ -111,12 +117,14 @@ I then added the token to the aformentioned file with the following code below:
 }
 ```
 
+
 8. **Creating a Terraform bash script**
 
 Created a TF bash script by generating an API token at Terraform Cloud.
 
 Also created ```/bin/generate_tfrc_credentials``` and set the enviorment variables for "TERRAFORM_CLOUD_TOKEN" 
 for the API token.
+
 
 9. **Creating a Terraform alias**
 
