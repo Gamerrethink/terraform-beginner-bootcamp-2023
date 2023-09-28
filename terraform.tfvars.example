@@ -2,3 +2,4 @@ user_uuid="d0a4784e-d7a2-4ab5-8e3b-7c7fdf0f385b"
 bucket_name="sebvngbvxtbwvvx5g76c6qphcwj4qldk"
 index_html_filepath="public/index.html"
 error_html_filepath="public/error.html"
+content_version=2
