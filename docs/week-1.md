@@ -2,9 +2,9 @@
 
 1. [Watched Week 1 Live Stream]()
 
-2. Restructured the root module by setting up the ```tf``` files in the ```modules``` folder. 
+2. Restructured the root module by setting up the ```tf``` files in the [```modules/terrahouse_aws```](https://github.com/Gamerrethink/terraform-beginner-bootcamp-2023/tree/main/modules) folder. 
 
-   Also, I set some enviornmental variables at TF cloud, which were:
+   Also, I set some enviornmental variables at TF Cloud, which were:
 
    - AWS access key
    - AWS secret access key
