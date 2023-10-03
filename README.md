@@ -7,3 +7,5 @@
 - [Week 0](/docs/week-0.md)
 
 - [Week 1](/docs/week-1.md)
+
+- [Week 2](/docs/week-2.md)
