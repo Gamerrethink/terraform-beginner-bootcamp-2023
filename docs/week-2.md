@@ -1,4 +1,4 @@
-## Week 2 - Connecting
+# Week 2 - Connecting
 
 1. [Watched Week-2 Stream](https://www.youtube.com/watch?v=pWCejw1Mk50&list=PLBfufR7vyJJ4q5YCPl4o2XAzGRZUjuD-A&index=46&pp=iAQB)
 
