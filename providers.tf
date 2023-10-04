@@ -1,24 +1,24 @@
-terraform {
-  cloud {
-    organization = "terraformbootcamp2023"
+#terraform {
+#  cloud {
+#    organization = "terraformbootcamp2023"
+#
+#    workspaces {
+#      name = "terra-house-1"
+#    }
+#  }
 
-    workspaces {
-      name = "terra-house-1"
-    }
-  }
+#  required_providers {
+#    aws = {
+#      source = "hashicorp/aws"
+#      version = "5.16.2"
+#    }
+#  }
+# } 
 
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "5.16.2"
-    }
-  }
- } 
-
-provider "random" {
+#provider "random" {
   # Configuration options
-}
+#}
 
-provider "aws" {
-  
-}
+#provider "aws" {
+#  
+#}

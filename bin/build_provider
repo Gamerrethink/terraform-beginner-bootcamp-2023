@@ -1,6 +1,5 @@
 #! /usr/bin/bash
 # Tells the TF provider how to reach the internet along with build_provider
-
 PLUGIN_DIR="/home/gitpod/.terraform.d/plugins/local.providers/local/terratowns/1.0.0/"
 PLUGIN_NAME="terraform-provider-terratowns_v1.0.0"
 
