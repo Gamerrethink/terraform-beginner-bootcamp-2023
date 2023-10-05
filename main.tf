@@ -29,3 +29,15 @@ provider "terratowns" {
 #  assets_path = var.assets_path
 #  content_version = var.content_version
 #}
+
+resource "terratowns_home" "home" {
+  name = "How to play Quake II (1997) in 2023"
+  description = <<DESCRIPTION
+Quake II is a 1997 first-person-shooter video game developed by id Software.
+This guide will show you how to play the game on modern hardware.
+DESCRIPTION
+  #domain_name = module.terrahouse_aws.cloudfront_url
+  domain_name = "3fdq3gz.cloudfront.net"
+  town = "gamers-grotto"
+  content_version = 1
+}
