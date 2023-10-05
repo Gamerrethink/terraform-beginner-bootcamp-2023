@@ -14,18 +14,20 @@ variable "teacherseat_user_uuid" {
 #  type        = string
 #}
 
-variable "index_html_filepath" {
-  type = string
+variable "Quake2" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
 }
 
-variable "error_html_filepath" {
-  type = string
+variable "DOOM1993" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
 }
 
-variable "content_version" {
-  type = number
-}
-
-variable "assets_path" {
-  type = string
-}
+#variable "content_version" {
+#  type = number
+#}

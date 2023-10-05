@@ -1,6 +1,10 @@
 terratowns_endpoint="https://terratowns.cloud/api"
-user_uuid="d0a4784e-d7a2-4ab5-8e3b-7c7fdf0f385b" 
-index_html_filepath="public/index.html"
-error_html_filepath="public/error.html"
-assets_path="public/assets/"
-content_version=1
+Quake2 = {
+    public_path = "public/Quake2"
+    content_version = 1
+}
+
+DOOM1993 = {
+    public_path = "public/DOOM1993"
+    content_version = 1
+}
