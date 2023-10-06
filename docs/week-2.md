@@ -139,4 +139,4 @@ require (
    - Created an additional town and a directory that has the same structure as the previous one.
      
 NOTE: When testing the multi-home function locally in the http-server inside Gitpod, it wasn't showing the index page. 
-      It wasn't until I hit refresh that I realized my issue was cache related.
+      It wasn't until I hit refresh that I realized my issue was related to the page cache.
