@@ -116,6 +116,26 @@ require (
 7. Implemented [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)(which stands for Create, Read Update, and Delete) by making some updates to main.tf and terraform-provider-terratowns/main.go
    and running ```bin/build_provider``` afterward to test on the local Sinatra server.
 
-8.
+8. Deployed to Terratowns by doing the following:
 
-9.
+   - Obtained TeacherSeat UUID from my account and the access key required for signing up to TerraTowns.
+     
+   - Ran ```bin/build_provider``` after updating a few files and variables
+     
+   - Later ran tf init and tf apply, which deployed an S3 bucket, loaded the file assets into it, 
+     setup a CloudFront distribution, and connected my TerraHouse to the Missango page
+     
+   - I later ran the ```tf destroy``` command to tear down the infastructure
+     
+     ![terratownsmissingomarquisquakeii](https://github.com/Gamerrethink/terraform-beginner-bootcamp-2023/assets/20970865/b46d4697-99c2-4c89-8696-96a0905a8638)
+
+
+9. Setup Multi-Homes in TerraForm Cloud by doing the following:
+    
+   - Set "General->Execution Mode" to "custom"->"local" in my [Terraform workspace](https://app.terraform.io/app)
+     
+   - Ran ```./bin/build_provider```, ```tf init``` and ```tf apply```
+     
+   - Created an additional town and a directory that has the same structure as the previous one.
+     
+NOTE: when testing the multi-home function locally in the http-server inside Gitpod, it wasn't showing the index. It wasn't until I hit refresh that made me realize that my issue was cache realated.
