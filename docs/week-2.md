@@ -103,14 +103,18 @@ require (
 5. I setup the provider block for the custom TerraForm provider by doing the following:
 
    - Added ```TF_LOG: DEBUG``` to the ```gitpod.yml``` file alongside setting an enviornment variable
-     for ```TF_LOG: DEBUG``` 
-   - Commented out all conents of the top-level ```outputs.tf``` file
+     for ```TF_LOG: DEBUG```
+     
+   - Commented out all contents of the top-level ```outputs.tf``` file
+     
    - Ran ```tf init``` to check if ```TF_LOG: DEBUG``` is working
+     
    - Installed a Go VSCode extension to color code the syntax
 
-6.
+6. Made a bunch of updates to the ```go``` files and ran ```bin/build_provider``` and ```tf init``` for testing.
 
-7.
+7. Implemented [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)(which stands for Create, Read Update, and Delete) by making some updates to main.tf and terraform-provider-terratowns/main.go
+   and running ```bin/build_provider``` afterward to test on the local Sinatra server.
 
 8.
 
