@@ -24,7 +24,7 @@
 4. I setup the skeleton for a custom TerraForm provider by doing the following:
    
    - Creating a directory named ```terraform-provider-terratowns```
-   - Added content in the [```main.go```]() file
+   - Added content in the [```main.go```](https://github.com/Gamerrethink/terraform-beginner-bootcamp-2023/blob/main/terraform-provider-terratowns/main.go) file
    - Created a file named ```go.mod``` by cd'ing into the ```terraform-provider-terratowns``` directory and
      running the command ```go mod init terraform-provider-terratowns```. The aformentioned file should have 
      the following code shown below:
