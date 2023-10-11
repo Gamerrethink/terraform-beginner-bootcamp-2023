@@ -41,7 +41,7 @@ This guide will show you how to play the game on modern hardware.
 DESCRIPTION
   domain_name = module.home_quake2_hosting.domain_name
   #domain_name = "3fdq3gz.cloudfront.net"
-  town = "missingo"
+  town = "gamers-grotto"
   content_version = var.Quake2.content_version
 }
 
@@ -60,6 +60,6 @@ This guide will show you how to play the game on modern hardware.
 DESCRIPTION
   domain_name = module.home_doom_1993_hosting.domain_name
   #domain_name = "3fdq3gz.cloudfront.net"
-  town = "missingo"
+  town = "gamers-grotto"
   content_version = var.DOOM1993.content_version
 }
