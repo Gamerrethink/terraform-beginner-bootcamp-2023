@@ -130,3 +130,5 @@ for the API token.
 
 Created a TF alias by appending ```alias tf="terraform"``` to the ~/.bash_profile file alongside creating
 the bin/set_tf_alias bash script and running ```tf```.
+
+10. [Watched the Week 0 Security Considerations video.](https://www.youtube.com/watch?v=BIVsDKwqlEM&t=1s)
