@@ -1,6 +1,6 @@
 # Week 1 - Building
 
-1. [Watched Week 1 Live Stream]()
+1. [Watched Week 1 Live Stream](https://www.youtube.com/watch?v=qIe3srQOQ8Q)
 
 2. Restructured the root module by setting up the ```tf``` files in the [```modules/terrahouse_aws```](https://github.com/Gamerrethink/terraform-beginner-bootcamp-2023/tree/main/modules) folder. 
 
@@ -28,3 +28,5 @@
 
 9. Implemented an asset upload using ```for_each``` loops via gitpod alongside creating the ```assets``` folder and
    putting two images - one jpg and one png - inside said folder.
+
+10. [Watched the Week 1 Security Considerations video.](https://www.youtube.com/watch?v=tcnYkhwLu2w)
